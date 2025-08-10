@@ -1,9 +1,26 @@
 body{
     background-color: rgb(105, 234, 133);
-    font-family: comic sans ms
+    font-family: 'comic sans ms';
 }
 
 img{
     width: 550px;
+    border-radius: 25%;
+}
+
+body.banana img {
+    border-radius: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body.banana {
+    margin: 0;
+}
+
+button.my-btn {
+    display: block;
+    background-color: rgb(255, 77, 0);
+    color: white;
     border-radius: 25%;
 }
